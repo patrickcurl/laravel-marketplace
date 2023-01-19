@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "zvive/laravel-marketplace",
+    "description": "This is my package laravel-marketplace",
     "keywords": [
-        ":vendor_name",
+        "zvive",
         "laravel",
-        ":package_slug"
+        "laravel-marketplace"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/zvive/laravel-marketplace",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Patrick Curl",
+            "email": "patrickwcurl@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Zvive\\LaravelMarketplace\\": "src",
+            "Zvive\\LaravelMarketplace\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Zvive\\LaravelMarketplace\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Zvive\\LaravelMarketplace\\LaravelMarketplaceServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelMarketplace": "Zvive\\LaravelMarketplace\\Facades\\LaravelMarketplace"
             }
         }
     },
